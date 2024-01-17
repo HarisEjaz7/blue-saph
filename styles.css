@@ -1,0 +1,478 @@
+/* Add your CSS styles here to customize the appearance of your webpage */
+
+/* Reset default margin and padding for all elements */
+/* Add your CSS styles here to customize the appearance of your webpage */
+
+/* Reset default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5; /* Set a background color for the body */
+    
+}
+
+header {
+    background-color: #35558a;
+    color: white;
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px; /* Add left and right padding */
+
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* Style for the main content section */
+#Work-Permit {
+    padding: 40px; /* Add padding to the content section */
+}
+
+.centered-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+a {
+    color: #35558a;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.centered-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px; /* Add a border-radius for rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+}
+
+.image-description {
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: disc; /* Use disc bullets for the list */
+    text-align: left; /* Align list items to the left */
+}
+/* Add this to your CSS file (styles.css) */
+
+ul {
+    list-style-type: none; /* Remove default list styles */
+    padding-left: 0; /* Remove default padding */
+}
+
+ul li {
+    position: relative; /* Position for pseudo-element */
+    padding-left: 30px; /* Space for the checkbox */
+    margin-bottom: 10px; /* Adjust spacing between items */
+}
+
+ul li::before {
+    content: '\2713'; /* Unicode checkmark character */
+    color: #35558a; /* Checkmark color */
+    font-size: 20px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+/* Adjust the color and font size as needed */
+
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Responsive styles for smaller screens */
+@media screen and (max-width: 768px) {
+    .nav-links {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-links li {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+}
+
+/* Style for the main image section */
+.main-image-container {
+    background-image: url('main3.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 90vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#intro {
+    background-color: #f7f7f7; /* Set the background color */
+    padding: 40px; /* Add padding to the section */
+    text-align: center; /* Center the text horizontally */
+}
+
+#intro h2 {
+    font-size: 32px; /* Set the font size for the heading */
+    color: #333; /* Set the text color */
+}
+#about h4{
+    text-align: center; /* Center the text horizontally */
+    padding: 5px; /* Add padding to the section */
+}
+#about h2{
+    padding: 5px; /* Add padding to the section */
+    text-align: center; /* Center the text horizontally */
+}
+#about h3 {
+    text-align: center; /* Center the text horizontally */
+    padding: 5px; /* Add padding to the section */
+}
+#about p {
+    text-align: center; /* Center the text horizontally */
+    padding: 5px; /* Add padding to the section */
+}
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.about-image-container {
+    flex: 1;
+    margin-right: 20px; /* Add some spacing between the image and text */
+       
+
+}
+
+/* Add this to your CSS file (styles.css) */
+
+.about-image-container img {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Add rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+}
+
+.about-text {
+    flex: 2;
+    padding: 20px; /* Add padding for better spacing */
+}
+
+.about-text p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Style for the text overlay */
+.image-text {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Add this to your CSS file (styles.css) */
+.contact-button {
+    display: inline-block;
+    background-color: #35558a;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.contact-button:hover {
+    background-color: #263d62;
+}
+
+.text-and-button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%; /* Ensure it takes the full height of the parent container */
+    text-align: center; /* Center text horizontally */
+    position: relative; /* Add relative positioning */
+}
+#servtext{
+    padding: 0 30px;
+}
+
+/* Style for service cards */
+#services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Distribute cards evenly */
+    margin: 20px 0px; /* Adjust margin for spacing */
+    background-image: url('main5.jpg'); /* Add your background image path */
+    background-size: cover; /* Make the background image cover the section */
+    background-position: center; /* Center the background image vertically */
+    padding: 20px; /* Add padding to separate cards from the background */
+    box-sizing: border-box; /* Include padding in the total width */
+}
+
+/* Style for service cards */
+.service-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.9); /* Adjust the alpha value (0.9) to make it slightly opaque */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+    margin: 10px;
+    transition: background-color 0.3s ease-in-out; /* Add a transition for smooth hover effect */
+}
+
+.service-card:hover {
+    background-color: rgba(255, 255, 255, 1); /* Fully opaque on hover */
+}
+
+
+.service-icon {
+    width: 64px;
+    height: 64px;
+}
+
+.service-text {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.service-description {
+    margin-top: 10px;
+    color: #666;
+}
+
+.centered-content {
+    display: flex;
+    justify-content: space-between; /* Space items apart */
+    align-items: center; /* Center items vertically */
+    margin-top: 40px; /* Add spacing from the top */
+    text-align: left; /* Align text to the left */
+}
+
+.centered-image {
+    flex: 1;
+    margin-right: 20px;
+    max-width: 70%; /* Make sure the image doesn't exceed its container width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.image-description {
+    flex: 2;
+    text-align: center; /* Align text to the right */
+    font-size: 18px; /* Set the font size for the text */
+    color: #666; /* Set the text color */
+}
+
+
+.details-button {
+    background-color: #35558a;
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    display: inline-block;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.details-button:hover {
+    background-color: #263d62;
+}
+
+/* Style for the contact form */
+#contact {
+    padding: 10px 35px;
+}
+.contact-form {
+    background-color: f7f7f7; /* Background color for the contact form */
+    border-radius: 5px;
+}
+
+.contact-form h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.contact-form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button[type="submit"] {
+    background-color: #35558a;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.contact-form button[type="submit"]:hover {
+    background-color: #263d62;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Style for the secondary navigation */
+.secondary-nav {
+    background-color: #333;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000; /* Ensures it's above other content */
+    transition: opacity 0.5s ease-in-out;
+    opacity: 1; /* Initially visible */
+}
+
+.secondary-nav.hidden {
+    opacity: 0; /* Hidden when scrolled down */
+    pointer-events: none; /* Make it unclickable when hidden */
+}
+
+.contact-info {
+    margin: 0 20px;
+}
+
+.back-button {
+    display: inline-block;
+    background-color: #35558a;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.back-button:hover {
+    background-color: #2056b3;
+}
+
+/* Add this to your CSS file for styling the footer */
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.about-us,
+.quick-links,
+.contact-info {
+    flex: 1;
+    margin-right: 20px;
+}
+
+
+
+.quick-links ul {
+    list-style: none; /* Remove the default list-style */
+    padding: 0;
+    display: flex; /* Display the links horizontally */
+    justify-content: center; /* Center the links horizontally */
+    flex-wrap: wrap; /* Allow links to wrap to the next line if needed */
+}
+
+.quick-links a {
+    margin: 0 10px; /* Adjust spacing between the links */
+    text-decoration: none;
+    color: white;
+}
+
+.quick-links a:hover {
+    text-decoration: underline;
+}
+
+
+.contact-info p {
+    margin: 0;
+}
+
+.contact-info a {
+    color: #35558a;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
