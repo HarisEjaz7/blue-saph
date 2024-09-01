@@ -514,3 +514,64 @@ footer {
     text-decoration: underline;
 }
 
+/* styles.css */
+
+.booking-button {
+    background-color: #35558a; /* Match your website's color scheme */
+    border: none;
+    color: #fff;
+    height: 40px;
+    text-transform: uppercase;
+    font-family: Arial, sans-serif;
+    letter-spacing: 1px;
+    line-height: 38px;
+    padding: 0 28px;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 14px;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none; /* Remove underline */
+    transition: background-color 0.3s ease; /* Add a smooth transition */
+}
+
+.booking-button:hover {
+    background-color: #2d4a78; /* Slightly darker shade on hover */
+}
+/* styles.css */
+
+@media (max-width: 768px) {
+    .booking-button {
+        width: 80%; /* Make the button wider on smaller screens */
+        margin: 0 auto; /* Center the button */
+        display: block; /* Change to block for full width */
+        text-align: center;
+    }
+}
+#bookapt {
+    text-align: center; /* Center content inside the hero section */
+    /* Other styles for the hero section */
+}
+
+/* styles.css */
+
+#booking {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+#booking h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Optional: Styling the embedded widget area */
+.sqs-block-embed {
+    max-width: 600px;
+    margin: 0 auto;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 20px;
+    background-color: #fff;
+}
